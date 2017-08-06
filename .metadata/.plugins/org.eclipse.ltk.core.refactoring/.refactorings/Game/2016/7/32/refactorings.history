@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;test.PairGame.java&apos;&#x0D;&#x0A;- Original project: &apos;Game&apos;&#x0D;&#x0A;- Destination element: &apos;test.PairGame.java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     mogoDB.jpg&#x0D;&#x0A;     honda.jpg&#x0D;&#x0A;     redhet.jpg&#x0D;&#x0A;     motorola.jpg" description="Copy files" destination="=test/src&lt;test{PairGame.java" element1="src/com/pairsGame/mogoDB.jpg" element2="src/com/pairsGame/honda.jpg" element3="src/com/pairsGame/redhet.jpg" element4="src/com/pairsGame/motorola.jpg" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1469952526576" units="0" version="1.0"/>
+</session>

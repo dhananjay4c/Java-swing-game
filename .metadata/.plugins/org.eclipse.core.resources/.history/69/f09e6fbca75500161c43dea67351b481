@@ -1,0 +1,45 @@
+package test;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JButton;
+
+public class testi extends JFrame {
+
+	private JPanel contentPane;
+	JButton button = new JButton("");
+	
+	public static void main(String[] args) {
+		
+					testi frame = new testi();
+					frame.setVisible(true);
+				
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public testi() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPane.setLayout(null);
+		setContentPane(contentPane);
+		
+		button.setIcon(new ImageIcon(testi.class.getResource("mcd.jpg")));
+		button.setBounds(101, 64, 165, 120);
+		contentPane.add(button);
+		String icon=button.getIcon().toString();
+		System.out.println(icon);
+		String name=icon.substring(icon.indexOf("/", 1));
+		System.out.println(name);
+	}
+
+}
